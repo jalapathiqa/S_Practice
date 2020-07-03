@@ -48,8 +48,7 @@ public class Listeners extends TestListenerAdapter {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File(
-				System.getProperty("user.dir") + "/ScreenShots_Pass" + result.getMethod().getMethodName() + ".png");
+		File dest = new File("./ScreenShots_Pass/" + result.getMethod().getMethodName() + ".png");
 
 		try {
 			FileHandler.copy(src, dest);
@@ -67,8 +66,7 @@ public class Listeners extends TestListenerAdapter {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File(
-				System.getProperty("user.dir") + "/ScreenShots_Fail" + result.getMethod().getMethodName() + ".png");
+		File dest = new File("./ScreenShots_Fail/" + result.getMethod().getMethodName() + ".png");
 
 		try {
 			FileHandler.copy(src, dest);

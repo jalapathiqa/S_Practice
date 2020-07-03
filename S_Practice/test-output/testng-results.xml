@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26820" started-at="2020-07-03T22:20:27Z" finished-at="2020-07-03T22:20:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26820" started-at="2020-07-03T22:20:27Z" finished-at="2020-07-03T22:20:54Z">
+      <class name="TestCases.LogintoFB">
+        <test-method status="PASS" signature="reunBeforeEverything()[pri:0, instance:TestCases.LogintoFB@6356695f]" name="reunBeforeEverything" is-config="true" duration-ms="201" started-at="2020-07-03T22:20:27Z" finished-at="2020-07-03T22:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reunBeforeEverything -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:TestCases.LogintoFB@6356695f]" name="initializeBrowser" is-config="true" duration-ms="17734" started-at="2020-07-03T22:20:27Z" finished-at="2020-07-03T22:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="runBeforeTest(java.lang.reflect.Method)[pri:0, instance:TestCases.LogintoFB@6356695f]" name="runBeforeTest" is-config="true" duration-ms="6" started-at="2020-07-03T22:20:45Z" finished-at="2020-07-03T22:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LogintoFB.LoginFaceBook(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeTest -->
+        <test-method status="PASS" signature="LoginFaceBook(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LogintoFB@6356695f]" name="LoginFaceBook" duration-ms="3416" started-at="2020-07-03T22:20:45Z" data-provider="FBLogin" finished-at="2020-07-03T22:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpreddy911@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kala@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFaceBook -->
+        <test-method status="PASS" signature="runAfterTest(org.testng.ITestResult)[pri:0, instance:TestCases.LogintoFB@6356695f]" name="runAfterTest" is-config="true" duration-ms="3522" started-at="2020-07-03T22:20:48Z" finished-at="2020-07-03T22:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginFaceBook status=SUCCESS method=LogintoFB.LoginFaceBook(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LogintoFB@6356695f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.LogintoFB@6356695f]" name="afterClass" is-config="true" duration-ms="2071" started-at="2020-07-03T22:20:52Z" finished-at="2020-07-03T22:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LogintoFB@6356695f]" name="tearDown" is-config="true" duration-ms="390" started-at="2020-07-03T22:20:54Z" finished-at="2020-07-03T22:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LogintoFB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
